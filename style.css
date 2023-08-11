@@ -1,0 +1,110 @@
+/* Reset some default browser styling */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background image to the body for a glassmorphic effect */
+  body {
+    background-image: url('web-developer.jpg'); /* Replace with your image path */
+    background-size: cover;
+    backdrop-filter: blur(10px); /* Add vendor prefixes if necessary */
+  }
+  
+  /* Center the content vertically */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Style the header */
+  header {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Float the image to the left */
+  img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  /* Style the text content in the header */
+  h1 {
+    font-size: 24px;
+  }
+  
+  i {
+    font-style: italic;
+  }
+  
+  /* Clear the float */
+  .clear {
+    clear: both;
+  }
+  
+  /* Style the main content section */
+  main {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the courses completed section */
+  #Courses {
+    margin-top: 20px;
+  }
+  
+  /* Style the projects list */
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  /* Style footer links */
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Add hover effect to footer links */
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

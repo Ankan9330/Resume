@@ -28,6 +28,32 @@ body, h1, h2, h3, p, ul, li, table {
     display: flex;
     align-items: center;
   }
+/* Reset default list styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for the navigation links */
+nav a {
+  text-decoration: none;
+  color: #333; /* Change the color to your preferred choice */
+  padding: 10px;
+  display: block;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  background-color: #f0f0f0; /* Change the color to your preferred choice */
+  color: #000; /* Change the color to your preferred choice */
+}
+
+/* Style for navigation list items */
+nav li {
+  margin-bottom: 5px;
+}
+
   
   /* Float the image to the left */
   img {
